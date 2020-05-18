@@ -10,14 +10,14 @@ const Projects = () => {
 
     return(
         <div className='projects-section' id='projects'>
-            <h1>Projects</h1>
-            <ul>
+            <h2>Projects</h2>
                 {projectsObjectsArray.map(project =>
-                    (<li key={project.title}>
-                        {project.title} {project.imagePath} {project.description}
-                    </li>)
+                    (<ul key={project.title}>
+                       <h3>{project.title}</h3>
+                       <p>{project.imagePath}</p>
+                       <p>{project.description}</p>
+                    </ul>)
                 )}
-            </ul>
         </div>
     )
 }
