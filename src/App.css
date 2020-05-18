@@ -1,38 +1,40 @@
-.App {
+body {
+  margin: 0;
+  background-color: #2a4661;
+  padding-left: 5px;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar a{
+  padding: 0px 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar > .active {
+  border-bottom: 1px solid white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.home-section{
+  height: 100vh;
+  /* background-color: aqua; */
 }
 
-.App-link {
-  color: #61dafb;
+.contact-section{
+  height: 100vh;
+  /* background-color: red; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.projects-section{
+  height: 100vh;
+  /* background-color: orange; */
+}
+
+.skills-section{
+  height: 100vh;
+  /* background-color: green; */
 }
