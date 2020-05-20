@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './components/home';
+import About from './components/about';
 import Navbar from './components/navbar';
 import Projects from './components/projects';
 import Skills from './components/skills';
@@ -9,7 +9,7 @@ function App() {
   return (
       <div className="App">
         <Navbar />
-        <Home />
+        <About />
         <Projects />
         <Skills />
         <Contact />

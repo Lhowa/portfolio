@@ -2,23 +2,24 @@ import React from 'react'
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
+
     return(
-        <div className='navbar'>
+        <header className='navbar'>
             <Link
             activeClass="active"
-            to="home"
+            to="about"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-18}
             duration= {500}
-            >Home</Link>
+            >About</Link>
 
             <Link
             activeClass="active"
             to="projects"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-18}
             duration= {500}
             >Projects</Link>
 
@@ -27,7 +28,7 @@ const Navbar = () => {
             to="skills"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-18}
             duration= {500}
             >Skills</Link>
 
@@ -36,10 +37,10 @@ const Navbar = () => {
             to="contact"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-18}
             duration= {500}
             >Contact</Link>
-        </div>
+        </header>
     )
 }
 export default Navbar;
