@@ -3,9 +3,15 @@ import React from 'react';
 const About = () => {
     return(
         <div className='about-section' id='about'>
-            <h2>Landon Howa</h2>
-            <h4>Software Engineer</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A quisquam sed repellendus molestiae magni. Quos quo omnis vel illum enim laborum rem, laudantium minima quia porro nemo saepe dicta pariatur?</p>
+            
+            <h1 id='about-name'>Landon Howa</h1>
+            <h2 id='padded-text'>Software Engineer</h2>
+            <p id='padded-text'>
+                Hello there! I'm Landon, a software engineer based in South Jordan, UT. My engineering background is
+                mainly comprised of Java and Javascript among various other technologies. I have an Associate's 
+                degree in Computer Science and Information Systems with Honors from Salt Lake Community College. 
+                My studies mainly included software engineering, web development, and networking.
+            </p>
         </div>
     )
 }

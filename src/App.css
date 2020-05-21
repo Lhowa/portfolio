@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  background-color: #0a192f;
-  padding-left: 5px;
+  background-color: #071529;
   color: #dce2f5;
+  padding: 0px 5px;
 }
 
 .navbar{
@@ -11,8 +11,8 @@ body {
   width: 100%;
   text-align: right;
   font-size: 20px;
-  background-color: #0a192f;
-  color: #64ffda;
+  background-color: #071529;
+  color: #57f1ff;
 }
 
 .navbar a{
@@ -20,27 +20,31 @@ body {
 }
 
 .navbar > .active {
-  border-bottom: 1px solid #64ffda;
+  border-bottom: 1px solid #57f1ff;
 }
 
 .about-section{
   height: 100vh;
-  /* background-color: aqua; */
+}
+.about-section #about-name{
+  font-size: 3.5em;
+  padding: 20% 0% 0% 15%;
+  color: #57f1ff;
+}
+.about-section #padded-text{
+  padding:0% 15%;
 }
 
 .contact-section{
   height: 100vh;
-  /* background-color: red; */
 }
 
 .projects-section{
   height: 100vh;
-  /* background-color: orange; */
 }
 
 .skills-section{
   height: 100vh;
-  /* background-color: green; */
 }
 
 .projectsContainer{
