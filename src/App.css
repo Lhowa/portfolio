@@ -2,7 +2,6 @@ body {
   margin: 0;
   background-color: #071529;
   color: #dce2f5;
-  padding: 0px 5px;
 }
 
 
@@ -16,7 +15,7 @@ body {
   color: #57f1ff;
 }
 .navbar a{
-  padding: 0px 15px;
+  margin: 0px 15px;
 }
 .navbar > .active {
   border-bottom: 1px solid #57f1ff;
@@ -32,7 +31,7 @@ body {
   color: #57f1ff;
 }
 .about-section #padded-text{
-  padding:0% 15%;
+  padding: 0% 15%;
 }
 
 
@@ -60,7 +59,7 @@ body {
 }
 .skillsContainer{
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
   grid-gap: 15px;
   margin-top: 30%;
   justify-content: center;
@@ -68,8 +67,15 @@ body {
 .individualSkillContainer{
   text-align: center;
   border: 1px solid red;
-  height: 100px;
+  height: 150px;
   width: 100px;
+}
+.individualSkillContainer img{
+  display: block;
+  max-width:100px;
+  max-height:100px;
+  width: auto;
+  height: auto;
 }
 
 .contact-section{
