@@ -10,7 +10,7 @@ const About = () => {
             </div>
             <p>
                 Hello there! I'm Landon, a software engineer based in South Jordan, UT. My engineering background is
-                comprised mostly of Java and Javascript among various other technologies. I have an Associate's 
+                centered around Java, Javascript, and various other technologies. I have an Associate's 
                 degree in Computer Science and Information Systems with Honors from Salt Lake Community College. 
                 My studies included software engineering, web development, and networking.
             </p>

@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  color: black;
+  text-align: center;
+  color: gray;
 }
-
 
 .navbar{
   position: fixed;
@@ -10,13 +10,15 @@ body {
   width: 100%;
   text-align: right;
   font-size: 20px;
-  background-color: inherit;
+  color: white;
+  background-color: #4a4949;
+  padding: 10px;
 }
 .navbar a{
   margin: 0px 15px;
 }
 .navbar > .active {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 
@@ -45,7 +47,7 @@ body {
 .projects-section{
   height: 100vh;
   width: 100%;
-  background-color: lightgrey;
+  background-color: lightblue;
   padding: 5% 0%;
 }
 .projectsContainer{
@@ -90,8 +92,8 @@ body {
 .contact-section{
   height: 100vh;
   width: 100%;
-  background-color: lightgrey;
-  padding: 5% 0%;
+  background-color: lightblue;
+  padding-top: 5%;
 }
 .contact-section #contact-form{
   border: 1px solid red;
@@ -109,6 +111,7 @@ body {
   }
 
   .about-section{
+    margin-top: 25px;
     height: auto;
   }
 

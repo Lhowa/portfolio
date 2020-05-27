@@ -13,7 +13,7 @@ const Projects = () => {
 
     return(
         <div className='projects-section' id='projects'>
-            <h2>Projects</h2>
+            <h1>Projects</h1>
                 <div className='projectsContainer'>
                     {projectsObjectsArray.map(project =>
                         (<div key={project.title} className='individualProjectContainer'>

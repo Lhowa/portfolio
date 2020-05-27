@@ -44,7 +44,7 @@ let skillsObjectsArray = [
 const Skills = () => {
     return(
         <div className='skills-section' id='skills'>
-            <h2>Skills</h2>
+            <h1>Skills</h1>
                 <div className='skillsContainer'>
                     {skillsObjectsArray.map(skill =>
                         (<div key={skill.title} className='individualSkillContainer'>
