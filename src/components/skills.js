@@ -17,7 +17,9 @@ import UbuntuLogo from '../resources/img/ubuntu.png';
 import WordpressLogo from '../resources/img/wordpress.png';
 import AwsLogo from '../resources/img/aws.png';
 import PhpLogo from '../resources/img/php.png';
-
+import PythonLogo from '../resources/img/python.png';
+import Powershell from '../resources/img/powershell.png';
+import Bash from '../resources/img/bash.png';
 
 
 let skillsObjectsArray = [
@@ -38,7 +40,10 @@ let skillsObjectsArray = [
     {title: 'Ubuntu', imagePath: UbuntuLogo},
     {title: 'Wordpress', imagePath: WordpressLogo},
     {title: 'AWS', imagePath: AwsLogo},
-    {title: 'PHP', imagePath: PhpLogo}
+    {title: 'PHP', imagePath: PhpLogo},
+    {title: 'Python', imagePath: PythonLogo},
+    {title: 'Powershell', imagePath: Powershell},
+    {title: 'Bash', imagePath: Bash},
 ]
 
 const Skills = () => {
